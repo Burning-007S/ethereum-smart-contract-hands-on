@@ -23,3 +23,32 @@
   ● cd payroll
   ● truffle init 初始化truffle所需要的文件
   ● ls
+  ● truffle build 编译
+  ● truffle migration (在8.testrpc之后)
+  ● truffle console
+  ● web3.eth.accounts
+  ● web3.currentProvider
+  ● web3.personal.newAccount()
+  ● MetaCoin.deployed().then(contract => {metaconin = contract})
+  ● metacoin.getBalance.call('the first address of web3.eth.accounts').then(result => console.log(result))
+  ● metacoin.sendCoin.call('the second address of web3.eth.accounts', 2).then(result => console.log(result)) (call没法修改状态)
+  ● metacoin.getBalance.call('the second address of web3.eth.accounts').then(result => console.log(result))
+  ● metacoin.sendCoin('the second address of web3.eth.accounts', 2).then(result => console.log(result))
+  ● rm -rf *
+  ● truffle unbox react （下载好简单的前端应用）
+  ● truffle complile
+  ● truffle migration
+  ● npm run start
+  ● localhost:3000
+  
+  ● truffle test
+  
+  
+8. 智能合约测试
+  ● https://www.npmjs.com/package/ethereumjs-testrpc npm install -g ethereumjs-testrpc  
+  ● testrpc
+
+9. 智能合约代码测试
+  ● Solidity测试 -- 可以调用private方法，简介，适用于单元测试
+  ● Javascript测试 -- 对Exception处理比较号，适用于集成测试，与前端调用更接近
+  
