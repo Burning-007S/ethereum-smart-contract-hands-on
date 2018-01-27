@@ -1,0 +1,4 @@
+1. truffle migrate --reset 修改合约以后执行重新migrate合约
+
+2. UI优化
+  npm install antd --save  https://ant.design/docs/react/introduce-cn 
