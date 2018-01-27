@@ -52,3 +52,12 @@
   ● Solidity测试 -- 可以调用private方法，简介，适用于单元测试
   ● Javascript测试 -- 对Exception处理比较号，适用于集成测试，与前端调用更接近
   
+10. 使用vs code编辑
+  ● 打开 https://code.visualstudio.com/docs/setup/linux
+  ● 复制执行 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+  ● 复制执行 sudo apt-get update
+sudo apt-get install code # or code-insiders
+  ● code . 打开本目录
+
