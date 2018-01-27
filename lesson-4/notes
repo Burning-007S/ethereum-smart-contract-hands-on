@@ -38,7 +38,7 @@
   ● truffle unbox react （下载好简单的前端应用）
   ● truffle complile
   ● truffle migration
-  ● npm run start
+  ● npm run start (第五节课说是npm start)
   ● localhost:3000
   
   ● truffle test
